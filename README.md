@@ -13,7 +13,7 @@ English | [简体中文](README_zh-CN.md)
 
 ## 🎯 Introduction
 
-[CLEVA](https://arxiv.org/abs/2308.04813) is a Chinese Language Models EVAluation Platform developed by CUHK@CSE [LaVi Lab](https://lwwangcse.github.io/) led by Professor Liwei Wang. It includes:
+[CLEVA](https://arxiv.org/abs/2308.04813) is a Chinese Language Models EVAluation Platform developed by CUHK [LaVi Lab](https://lwwangcse.github.io/). CLEVA would like to thank Shanghai AI Lab for the great collaboration in the process. The main features of CLEVA include:
 - A comprehensive **Chinese Benchmark**, featuring 31 tasks (11 application assessments + 20 ability evaluation tasks), with a total of 370K Chinese test samples (33.98% are newly collected, mitigating *data contamination* issues);
 - A standardized **Prompt-Based Evaluation Methodology**, incorporating unified pre-processing for all data and using *a consistent set* of Chinese prompt templates for evaluation.
 - A trustworthy **Leaderboard**, as CLEVA uses a significant amount of new data to minimize data contamination and regularly organizes evaluations.
