@@ -27,7 +27,7 @@ The leaderboard is evaluated and maintained by CLEVA using new test data. Past l
 
 ## 🔥 News
 
-- **\[2024-12-06\]** We are thrilled to announce <a href="https://arxiv.org/abs/2412.04947">C<sup>2</sup>LEVA</a>, an effort toward building a comprehensive bilingual benchmark with systematic contamination prevention. 🔥🔥🔥
+- **\[2024.12.06\]** We are thrilled to announce <a href="https://arxiv.org/abs/2412.04947">C<sup>2</sup>LEVA</a>, an effort toward building a comprehensive bilingual benchmark with systematic contamination prevention. 🔥🔥🔥
 - **\[2023.11.02\]** Thanks for the support of Stanford CRFM HELM team! CLEVA has now been integrated into the [latest release](https://github.com/stanford-crfm/helm/releases/tag/v0.3.0) of HELM. You can use CLEVA to evaluate your own models locally via HELM.
 - **\[2023.09.30\]** CLEVA has been accepted to [EMNLP 2023 System Demonstrations](https://2023.emnlp.org/calls/demos/)!
 - **\[2023.08.09\]** Our [paper](https://arxiv.org/abs/2308.04813) for CLEVA is out!
@@ -37,7 +37,7 @@ The leaderboard is evaluated and maintained by CLEVA using new test data. Past l
 
 [CLEVA](https://arxiv.org/abs/2308.04813) has been integrated into [HELM](https://github.com/stanford-crfm/helm). CLEVA would like to thank Stanford CRFM HELM team for the support. Users can employ CLEVA's datasets, prompt templates, perturbations, and Chinese automatic metrics for local evaluations via HELM.
 
-> **Note**<br />
+> [!NOTE]
 > If you want to evaluate your models on CLEVA online, please contact us via <clevaplat@gmail.com> for authentication and check out [📘Documentation](http://www.lavicleva.com/#/homepage/createautotask) for API development.
 
 ### 🛠️ Installation
@@ -110,7 +110,7 @@ Comparison between the results obtained using HELM for evaluating `gpt-3.5-turbo
 | task=fact_checking | Exact Match | 0.4595 | 0.4528 |
 | task=bias,subtask=dialogue_region_bias | Micro F1 | 0.5656 | 0.5589 |
 
-> **Note**<br />
+> [!NOTE]
 > The difference is mainly due to different random seeds resulting in different in-context demonstrations, and the ChatGPT versions used by CLEVA and HELM are not completely aligned.
 
 ## ⏬ Download Data
@@ -131,6 +131,16 @@ You should have received a copy of the license along with this work. If not, see
 
 Please cite our paper if you use CLEVA in your work:
 ```bib
+@misc{li2024c2leva,
+      title={C$^2$LEVA: Toward Comprehensive and Contamination-Free Language Model Evaluation}, 
+      author={Yanyang Li and Tin Long Wong and Cheung To Hung and Jianqiao Zhao and Duo Zheng and Ka Wai Liu and Michael R. Lyu and Liwei Wang},
+      year={2024},
+      eprint={2412.04947},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.04947}, 
+}
+
 @misc{li2023cleva,
       title={CLEVA: Chinese Language Models EVAluation Platform}, 
       author={Yanyang Li and Jianqiao Zhao and Duo Zheng and Zi-Yuan Hu and Zhi Chen and Xiaohui Su and Yongfeng Huang and Shijia Huang and Dahua Lin and Michael R. Lyu and Liwei Wang},
