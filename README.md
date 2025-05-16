@@ -27,7 +27,8 @@ The leaderboard is evaluated and maintained by CLEVA using new test data. Past l
 
 ## 🔥 News
 
-- **\[2024.12.06\]** We are thrilled to announce <a href="https://arxiv.org/abs/2412.04947">C<sup>2</sup>LEVA</a>, an effort toward building a comprehensive bilingual benchmark with systematic contamination prevention. 🔥🔥🔥
+- **\[2025.05.16\]** <a href="https://arxiv.org/abs/2412.04947">C<sup>2</sup>LEVA</a> has been accepted to [Findings of ACL 2025](https://2025.aclweb.org/). 🔥🔥🔥
+- **\[2024.12.06\]** We are thrilled to announce <a href="https://arxiv.org/abs/2412.04947">C<sup>2</sup>LEVA</a>, an effort toward building a comprehensive bilingual benchmark with systematic contamination prevention.
 - **\[2023.11.02\]** Thanks for the support of Stanford CRFM HELM team! CLEVA has now been integrated into the [latest release](https://github.com/stanford-crfm/helm/releases/tag/v0.3.0) of HELM. You can use CLEVA to evaluate your own models locally via HELM.
 - **\[2023.09.30\]** CLEVA has been accepted to [EMNLP 2023 System Demonstrations](https://2023.emnlp.org/calls/demos/)!
 - **\[2023.08.09\]** Our [paper](https://arxiv.org/abs/2308.04813) for CLEVA is out!
